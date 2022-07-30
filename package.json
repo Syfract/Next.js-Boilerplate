@@ -1,0 +1,45 @@
+{
+	"name": "nextjs-boilerplate",
+	"version": "0.1.0",
+	"description": "A small ready-made starter project for Next.js with TypeScript, Recoil, Sentry, server-side sitemap generator (next-sitemap), i18n (next-i18n), SEO, ESLint, Prettier and bundle analyzer (@next/bundle-analyzer)",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Syfract/Next.js-Boilerplate.git"
+	},
+	"author": "Ali Mirlou",
+	"license": "MIT",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"postbuild": "next-sitemap --config next-sitemap.config.js",
+		"start": "next start",
+		"lint": "next lint",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"@next/env": "^12.2.3",
+		"@sentry/nextjs": "^7.8.0",
+		"next": "^12.2.3",
+		"next-i18next": "^11.3.0",
+		"next-seo": "^5.5.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"recoil": "^0.7.4"
+	},
+	"devDependencies": {
+		"@next/bundle-analyzer": "^12.2.3",
+		"@types/node": "^18.6.2",
+		"@types/react": "^18.0.15",
+		"@types/react-dom": "^18.0.6",
+		"@typescript-eslint/eslint-plugin": "^5.31.0",
+		"@typescript-eslint/parser": "^5.31.0",
+		"eslint": "^8.20.0",
+		"eslint-config-next": "^12.2.3",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"next-sitemap": "^3.1.15",
+		"prettier": "^2.7.1",
+		"typescript": "^4.7.4"
+	},
+	"packageManager": "yarn@3.2.2"
+}
