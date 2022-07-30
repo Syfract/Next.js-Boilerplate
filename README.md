@@ -2,7 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, add a UI library to the project. For example:
+This project is on Yarn 3 and PnP-ready.
+
+First, install the packages:
+```bash
+yarn install
+```
+
+You probably need to add a UI library to the project. For example:
 ```bash
 yarn add @nextui-org/react
 ```
@@ -21,8 +28,6 @@ Now the project is ready.
 At last, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
